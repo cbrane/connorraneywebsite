@@ -24,6 +24,10 @@ def open_resume_pdf():
         resumefile = resume_file
         webbrowser.open(resumefile)
 
+def V_SPACE(lines):
+    for _ in range(lines):
+        st.write('&nbsp;')
+
 # --- OPEN PDF & RESUME FILE ---
 with open(resume_file, "rb") as pdf_file:
      PDFbyte = pdf_file.read()
@@ -55,16 +59,15 @@ st.write("I'm a true business enthusiast, always eager to learn and grow. My lov
 st.write("My passion for business extends to every role I've embraced, be it internships or my own ventures. I bring a bubbly, fun, and engaging personality to any workplace, and my expertise lies in networking, ideation, marketing strategies, and launching online businesses.")
 st.write("As a hockey and analytics lover, I'm thrilled to combine these interests by concentrating in quantitative methods and business analytics at Babson College. I'm always keen to connect and expand my network, so don't hesitate to reach out!")
 
+st.header("Hobbies!")
+
 colm1, colm2, colm3 = st.columns(3, gap="small")
 with colm1:
-     st.header("Hobbies!")
      st.subheader("Hockey 🥅")
      st.write("I am a huge hockey fan, and love crunching different hockey analytics. I'm also a huge New York Rangers fan, I went to over 20 games in the last 21-22 season, including every home playoff game!")
 with colm2:
-     st.header("ㅤ")
      st.subheader("Poker ♠")
      st.write("I've been playing poker in the MA & RI area and am super interested in the numbers aspect behind Poker. By running solvers, & studying ranges and equities, I've been learning a lot overall.")
 with colm3:
-     st.header("ㅤ")
      st.subheader("Analytics & Python 📊")
      st.write("I am a little bit of a numbers nerd when it comes to hockey. Lately I've picked up python for both data science and web development (this site!) and it's been very fun!")
