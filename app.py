@@ -1,7 +1,6 @@
 import streamlit as st
 from pathlib import Path
 from PIL import Image
-import webbrowser
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -9,12 +8,6 @@ profile_pic = str(current_dir / "assets" / "20210214--44I2260-modified.png")
 email = "connor@connorraney.com"
 linkedin = "https://www.linkedin.com/in/connorraney"
 resume_file = "https://drive.google.com/file/d/1VXVvgAtZkZJQQ93bVfV7YeDC75fwjRcI/view?usp=sharing"
-
-def open_linkedin_link():
-    webbrowser.open(linkedin)
-
-def open_resume_link():
-    webbrowser.open(resume_file)
 
 def V_SPACE(lines):
     for _ in range(lines):
@@ -34,8 +27,8 @@ with col1:
 with col2:
     st.title("Connor Raney")
     st.write("Entrepreneur & Analytics Major at Babson College")
-    st.button("📑 My Resume", on_click=open_resume_link)
-    st.button("🔗 My LinkedIn", on_click=open_linkedin_link)
+    st.write("📑 [My Resume](%s)" % resume_file)
+    st.write("🔗 [My LinkedIn](%s)" % linkedin)
     st.write("✉ Email Me!", email)
 
 st.header("👋 About Me!")
