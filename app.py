@@ -4,45 +4,40 @@ from pathlib import Path
 from PIL import Image
 
 # Define constants
-CURRENT_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-PROFILE_PIC = str(CURRENT_DIR / "assets" / "20210214--44I2260-modified.png")
-PAGE_TITLE = "Connor Raney"
-PAGE_ICON = "🤗"
+current_directory = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+profile_pic = str(current_directory / "assets" / "20210214--44I2260-modified.png")
+page_title = "Connor Raney"
+page_icon = "🤗"
 
 # Define personal information
-email = "connor@connorraney.com"
 linkedin = "https://www.linkedin.com/in/connorraney"
 resume_link = "https://drive.google.com/file/d/1VXVvgAtZkZJQQ93bVfV7YeDC75fwjRcI/view?usp=sharing"
 cover_letter = "https://drive.google.com/file/d/1JzuhEKzRqYb7TzbAyK5MVyrBuGS7e-SK/view?usp=sharing"
 github = "https://github.com/cbrane"
-
-# Define helper functions
-def v_space(lines):
-    """Create vertical space in the Streamlit app."""
-    for _ in range(lines):
-        st.write('&nbsp;')
+email = "connor@connorraney.com"
+mailto_link = f"mailto:{email}"
 
 # Set page configuration
 st.set_page_config(
-    page_title=PAGE_TITLE,
-    page_icon=PAGE_ICON,
+    page_title=page_title,
+    page_icon=page_icon,
 )
 
 # Hero Section
 col1, col2 = st.columns(2, gap="small")
 
 with col1:
-    st.image(PROFILE_PIC, width=230)
+    st.image(profile_pic, width=230)
 
 with col2:
     st.title("Connor Raney")
     st.write("""Entrepreneur and Aspiring Data Scientist Studying Quantitative 
              Methods & Business Analytics at Babson College""")
-    st.markdown(f"🔗 [My LinkedIn]({linkedin})")
-    st.markdown(f"👨‍💻 [My Github]({github})")
-    st.markdown(f"📑 [My Resume]({resume_link})")
-    st.markdown(f"📫 [My Cover Letter]({cover_letter})")
-    st.markdown(f"✉ [Email Me!]({email})")
+    st.link_button("🔗 My LinkedIn", linkedin)
+    st.link_button("👨‍💻 My Github", github)
+    st.link_button("📑 My Resume", resume_link)
+    st.link_button("📫 My Cover Letter", cover_letter)
+    st.link_button("✉ Email Me!", mailto_link)
 
 # About Me Section
 st.header("👋 About Me!")
