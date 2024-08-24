@@ -11,8 +11,8 @@ page_icon = "🤗"
 
 # Define personal information
 linkedin = "https://www.linkedin.com/in/connorraney"
-resume_link = "https://drive.google.com/file/d/1VXVvgAtZkZJQQ93bVfV7YeDC75fwjRcI/view?usp=sharing"
-cover_letter = "https://drive.google.com/file/d/1JzuhEKzRqYb7TzbAyK5MVyrBuGS7e-SK/view?usp=sharing"
+resume_link = "https://drive.google.com/file/d/1fg-UZmT4t5EJl6ypbx4J-_uDcNRlAMUt/view?usp=sharing"
+cover_letter = "https://drive.google.com/file/d/128T_BkhyCaFCBhmiXrU7jN8SN3KuLFUa/view?usp=sharing"
 github = "https://github.com/cbrane"
 email = "connor@connorraney.com"
 mailto_link = f"mailto:{email}"
@@ -42,33 +42,37 @@ with col2:
 # About Me Section
 st.header("👋 About Me!")
 
-st.write("""From the age of twelve, when I automated the sale of mobile game 
-         currency, I've been infatuated with the world of business. My journey 
-         has taken me through diverse industries, from influencer marketing and 
-         software development to e-commerce and the booming sneaker market, and 
-         most recently, into the exciting realm of Web3 and NFTs.""")
+st.write("""From automating mobile game currency sales at age twelve to engineering 
+         cutting-edge AI solutions today, my journey has been driven by a passion 
+         for technology and innovation. My path has led me through diverse fields
+         including software development, e-commerce, and Web3, culminating in 
+         my current focus on artificial intelligence and its transformative potential.""")
 
-st.write("""I'm a true business enthusiast, always eager to learn and grow. 
-         My love for entrepreneurship started at a young age and has only 
-         intensified, becoming the driving force in my life. I've had my fair 
-         share of successes and failures, all of which have contributed to over 
-         $1m in revenue across seven years of company-building experience.""")
+st.write("""As an AI Engineer Intern at Barbaricum, I'm at the forefront of 
+         applying AI to revolutionize defense technology solutions. I've developed 
+         fully automated systems using Large Language Models and multi-agent 
+         architectures, dramatically increasing our capacity to analyze complex 
+         opportunities and make data-driven decisions.""")
 
-st.write("""My passion for business extends to every role I've embraced, be it 
-         internships or my own ventures. I bring a bubbly, fun, and engaging 
-         personality to any workplace, and my expertise lies in networking, 
-         ideation, marketing strategies, and launching online businesses.""")
+st.write("""My entrepreneurial background, which includes founding several 
+         ventures in my early career, now fuels my drive to push the boundaries 
+         of what's possible with AI. I combine technical expertise in Python, 
+         machine learning, and cloud technologies with an innovative mindset, 
+         allowing me to envision creative applications of AI and transform them 
+         into practical, scalable solutions.""")
 
-st.write("""As a hockey and analytics lover, I'm thrilled to combine these 
-         interests by concentrating in quantitative methods and business 
-         analytics at Babson College. I'm always keen to connect and expand my 
-         network, so don't hesitate to reach out!""")
+st.write("""Currently pursuing a BS in Business Administration with a concentration 
+         in Quantitative Methods and Business Analytics at Babson College, I'm 
+         also collaborating with The Generator - Babson's Interdisciplinary AI 
+         Lab. My goal is to continue my education with a master's in Data Science 
+         or AI, further deepening my expertise in this rapidly evolving field.""")
 
-st.write("""After I graduate Babson College in May 2025, I am aiming to pursue
-         my Masters in Data Science so that I can further my learning in a more 
-         STEM-oriented environment. As of right now, some of my main interests 
-         are Machine Learning, AI, Quantitative Analysis (especially when it 
-         comes to hockey statistics!) and also programming.""")
+st.write("""I'm passionate about leveraging AI to create positive change across 
+         industries. Whether it's optimizing business processes, enhancing 
+         decision-making, or tackling complex societal challenges, I believe in 
+         the power of AI to transform our world for the better. Always eager to 
+         connect with fellow AI enthusiasts, technologists, and innovators. 
+         Let's explore how we can shape the future with AI!""")
 
 # Hobbies Section
 st.header("Hobbies!")
