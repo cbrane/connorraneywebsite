@@ -48,7 +48,7 @@ st.write("""From automating mobile game currency sales at age twelve to engineer
          including software development, e-commerce, and Web3, culminating in 
          my current focus on artificial intelligence and its transformative potential.""")
 
-st.write("""As an AI Engineer Intern at Barbaricum, I'm at the forefront of 
+st.write("""As an AI Engineer, interning at Barbaricum, I'm at the forefront of 
          applying AI to revolutionize defense technology solutions. I've developed 
          fully automated systems using Large Language Models and multi-agent 
          architectures, dramatically increasing our capacity to analyze complex 
