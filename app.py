@@ -75,6 +75,41 @@ st.write("""I'm passionate about leveraging AI to create positive change across
          connect with fellow AI enthusiasts, technologists, and innovators. 
          Let's explore how we can shape the future with AI!""")
 
+# Technical Skills Section
+st.header("🛠️ Technical Skills")
+
+# Define skills categories with emojis
+skills = {
+    "💻 Programming": ["Python", "R", "Git", "Cursor"],
+    "📊 ML & Data Science": ["Predictive Analytics", "Statistical Analysis", "Data Visualization", "Pandas"],
+    "🧠 AI": ["Large Language Models (LLMs)", "OpenAI Integration", "OpenAI API", "Vector Stores", "Prompt Engineering", "Multi-Agent Systems (CrewAI)", "AI Solutions"],
+    "🚀 AI Applications": ["Opportunity Analysis", "Automated Report Generation", "Intelligent Document Processing"],
+    "🌩️ Cloud & DevOps": ["AWS (S3, Lambda, IAM)", "Heroku", "Replit", "Jira"]
+}
+
+# Custom CSS for skills
+skills_style = """
+<style>
+    .skills-list {
+        font-size: 0.9em;
+        line-height: 1.2;
+        margin-bottom: 0.5em;
+    }
+</style>
+"""
+st.markdown(skills_style, unsafe_allow_html=True)
+
+# Create two columns
+col1, col2 = st.columns(2)
+
+# Display skills in two columns with custom formatting
+for i, (category, skill_list) in enumerate(skills.items()):
+    with col1 if i % 2 == 0 else col2:
+        st.subheader(category)
+        skills_html = "<div class='skills-list'>" + "<br>".join([f"• {skill}" for skill in skill_list]) + "</div>"
+        st.markdown(skills_html, unsafe_allow_html=True)
+        st.write("")  # Add a small space between categories
+
 # Hobbies Section
 st.header("Hobbies!")
 colm1, colm2, colm3 = st.columns(3, gap="small")
