@@ -31,8 +31,9 @@ with col1:
 
 with col2:
     st.title("Connor Raney")
-    st.write("""Entrepreneur and Aspiring Data Scientist Studying Quantitative 
-             Methods & Business Analytics at Babson College""")
+    st.write("""AI Engineer and Aspiring Data Scientist. The Generator AI Lab
+             Student Member & Studying Quantitative Methods & Business Analytics 
+             at Babson College""")
     st.link_button("🔗 My LinkedIn", linkedin)
     st.link_button("👨‍💻 My Github", github)
     st.link_button("📑 My Resume", resume_link)
@@ -48,7 +49,7 @@ st.write("""From automating mobile game currency sales at age twelve to engineer
          including software development, e-commerce, and Web3, culminating in 
          my current focus on artificial intelligence and its transformative potential.""")
 
-st.write("""As an AI Engineer, interning at Barbaricum, I'm at the forefront of 
+st.write("""As an AI Engineer interning at Barbaricum, I'm at the forefront of 
          applying AI to revolutionize defense technology solutions. I've developed 
          fully automated systems using Large Language Models and multi-agent 
          architectures, dramatically increasing our capacity to analyze complex 
@@ -59,13 +60,13 @@ st.write("""My entrepreneurial background, which includes founding several
          of what's possible with AI. I combine technical expertise in Python, 
          machine learning, and cloud technologies with an innovative mindset, 
          allowing me to envision creative applications of AI and transform them 
-         into practical, scalable solutions.""")
+         into practical, scalable solutions for businesses.""")
 
 st.write("""Currently pursuing a BS in Business Administration with a concentration 
          in Quantitative Methods and Business Analytics at Babson College, I'm 
-         also collaborating with The Generator - Babson's Interdisciplinary AI 
-         Lab. My goal is to continue my education with a master's in Data Science 
-         or AI, further deepening my expertise in this rapidly evolving field.""")
+         also a student member of The Generator - Babson's Interdisciplinary AI 
+         Lab. My goal is to continue my education with a Master's in Data Science, 
+         further deepening my expertise in this rapidly evolving field.""")
 
 st.write("""I'm passionate about leveraging AI to create positive change across 
          industries. Whether it's optimizing business processes, enhancing 
