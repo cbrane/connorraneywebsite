@@ -5,7 +5,7 @@ from PIL import Image
 
 # Define constants
 current_directory = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-profile_pic = str(current_directory / "assets" / "20210214--44I2260-modified.png")
+profile_pic = str(current_directory / "assets" / "connorheadshot.png")
 page_title = "Connor Raney"
 page_icon = "🤗"
 
