@@ -118,7 +118,7 @@ colm1, colm2, colm3 = st.columns(3, gap="small")
 with colm1:
     st.subheader("Hockey 🥅")
     st.write("""I am a huge hockey fan, and love crunching different hockey  
-             analytics, check out my Github for my latest project! I'm a massive
+             analytics, check out my Github for my hockey project! I'm a massive
               New York Rangers fan and over the last few seasons I've been to 
              over 30 games!""")
 
@@ -133,5 +133,5 @@ with colm2:
 with colm3:
     st.subheader("DS & Analytics 📊")
     st.write("""I'm a little bit of a numbers nerd when it comes to hockey. I've
-              been working with both R and Python and you can check out my  
-             latest NHL Defensive Ice Time Project using R on my Github!""")
+              been working with both R and Python and you can check out my R 
+              NHL Defensive Ice Time Project, pinned on my Github!""")
