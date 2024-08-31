@@ -7,7 +7,7 @@ from PIL import Image
 current_directory = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 profile_pic = str(current_directory / "assets" / "connorheadshot.png")
 page_title = "Connor Raney"
-page_icon = "🤗"
+page_icon = "🚀"
 
 # Define personal information
 linkedin = "https://www.linkedin.com/in/connorraney"
