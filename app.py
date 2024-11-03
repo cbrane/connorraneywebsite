@@ -65,7 +65,7 @@ st.write("""My entrepreneurial background, which includes founding several
 st.write("""Currently pursuing a BS in Business Administration with a concentration 
          in Quantitative Methods and Business Analytics at Babson College, I'm 
          also a student member of The Generator - Babson's Interdisciplinary AI 
-         Lab. My goal is to continue my education with a Master's in Data Science, 
+         Lab. My goal is to continue my education with a Masters in Data Science, 
          further deepening my expertise in this rapidly evolving field.""")
 
 st.write("""I'm passionate about leveraging AI to create positive change across 
